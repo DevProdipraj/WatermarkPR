@@ -1,3 +1,4 @@
+
 // this code for stickey header 
 let header = document.querySelector('.header');
 
@@ -13,9 +14,3 @@ bars.addEventListener('click', function(){
    bars.classList.toggle("clicked");
    nav_menu.classList.toggle("show_menu");
 });
-
-
-
-
-// historo tab js 
-// =================

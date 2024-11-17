@@ -15,6 +15,10 @@
 
     <!-- bootstrap cdn link here  -->
     <link rel="stylesheet" href="./resource/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- for AOS animation  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- main css link here  -->
     <link rel="stylesheet" href="./resource/css/style.css">
@@ -58,16 +62,15 @@
     <main>
         <!-- hero area html start  -->
         <div class="hero-area-wrapper">
-            <div class="container">
-                <div class="hero-area">
+            <div class="container"> 
+                <div class="hero-area"  data-aos="fade-up"
+                data-aos-duration="1000">
                     <h1>Our insights.</h1>
-                    <div class=" d-flex watch-vedio">
+                    <div class=" d-flex watch-vedio justify-content-center">
                         <h1>Your impact.</h1>
-                        <div class="vedio-btn-wrapper">
-                             <a href="https://youtu.be/QVRaAMGv6i8">
-                                <input class="vedio-btn" type="button" value="Watch vedio">
-                             </a>
-                        </div>
+                       <div class="video-btn">
+                        
+                       </div>
                     </div>
                 </div>
             </div>
@@ -80,7 +83,7 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-6">
                             <a href="./blog.html">
-                                <div class="your-blog blog1">
+                                <div class="your-blog blog1" data-aos="zoom-in" data-aos-duration="1000">
                                     <div class="your-blog-img">
                                         <img src="./resource/img/indexpage/blog/blog1.jpg" alt="image">
                                     </div>
@@ -101,7 +104,8 @@
                         </div>
                         <div class="col-lg-4 col-md-6">
                             <a href="./blog.html">
-                                <div class="your-blog blog2">
+                                <div class="your-blog blog2" data-aos="zoom-in"
+                data-aos-duration="1000">
                                     <div class="your-blog-img">
                                         <img src="./resource/img/indexpage/blog/blog2.jpg" alt="image">
                                     </div>
@@ -122,7 +126,8 @@
                         </div>
                         <div class="col-lg-4 col-md-6">
                             <a href="./blog.html">
-                                <div class="your-blog blog3">
+                                <div class="your-blog blog3" data-aos="zoom-in"
+                data-aos-duration="1000">
                                     <div class="your-blog-img">
                                         <img src="./resource/img/indexpage/blog/blog3.jpg" alt="image">
                                     </div>
@@ -149,24 +154,25 @@
         <!-- about section html start  -->
         <div class="about_section">
             <div class="container-fluid">
-                <div class="about_header">
-                    <div class="section_title">
+                <div class="about_header" >
+                    <div class="section_title" data-aos="fade-up"
+                    data-aos-duration="2000" >
                         ABOUT US
                     </div>
                     <div class="about_sub_title">
-                        <h2>The stakeholder economy is</h2>
-                        <h3>complex and difficult to navigate.</h3>
+                        <h2 data-aos="zoom-in-up" data-aos-duration="2000"  data-aos-delay="300" >The stakeholder economy is</h2>
+                        <h3 data-aos="zoom-in-up" data-aos-duration="2000"   data-aos-delay="500" >complex and difficult to navigate.</h3>
                     </div>
                 </div>
                 <div class="about_body">
                     <div class="row">
                         <div class="col-lg-6 col-md-6">
-                            <div class="about_body_left">
+                            <div class="about_body_left" data-aos="zoom-in" data-aos-duration="1000" >
                                 <img src="./resource/img/indexpage/rubric-multi-podium (1).webp" alt="image">
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6">
-                            <div class="about_body_right">
+                            <div class="about_body_right" data-aos="zoom-in" data-aos-duration="1000">
                                 <p>
                                     Winning support across audiences in a fast-moving, interconnected world is more
                                     important than ever. To succeed, you need sound strategic advice, deep experience, a
@@ -188,10 +194,10 @@
         <div class="what_we_do_section">
             <div class="container-fluid">
                 <div class="what_we_do_header">
-                    <div class="section_title what_we_title">
+                    <div class="section_title what_we_title" data-aos="fade-up" data-aos-duration="2000"  >
                         WHAT WE DO
                     </div>
-                    <p>
+                    <p data-aos="zoom-in" data-aos-duration="1000">
                         FGS Global is the strategic advisor for the stakeholder economy. Through our <span
                             class="font">deep expertise,</span>global reach and fully integrated suite of tools, we help
                         our clients reach the audiences that <span class="font">matter most.</span>
@@ -202,7 +208,7 @@
                         <div class="row">
                             <div class="col-lg-4 col-md-6">
                                 <a href="./whatWeDoBlog.html">
-                                    <div class="work_card workCard1">
+                                    <div class="work_card workCard1" data-aos="zoom-in" data-aos-duration="1000">
                                         <div class="work-img">
                                             <img src="./resource/img/indexpage/work_img/warkimg1.png" alt="image">
                                         </div>
@@ -216,7 +222,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <a href="./whatWeDoBlog.html">
-                                    <div class="work_card workCard2">
+                                    <div class="work_card workCard2" data-aos="zoom-in" data-aos-duration="1000">
                                         <div class="work-img">
                                             <img src="./resource/img/indexpage/work_img/warkimg2.png" alt="image">
                                         </div>
@@ -230,7 +236,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <a href="./whatWeDoBlog.html">
-                                    <div class="work_card workCard3">
+                                    <div class="work_card workCard3" data-aos="zoom-in" data-aos-duration="1000">
                                         <div class="work-img">
                                             <img src="./resource/img/indexpage/work_img/workimg3.png" alt="image">
                                         </div>
@@ -244,7 +250,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <a href="./whatWeDoBlog.html">
-                                    <div class="work_card workCard4">
+                                    <div class="work_card workCard4" data-aos="zoom-in" data-aos-duration="1000">
                                         <div class="work-img">
                                             <img src="./resource/img/indexpage/work_img/workimg4.png" alt="image">
                                         </div>
@@ -260,7 +266,7 @@
                     </div>
                     <div class="work_btn">
                         <a href="./WhatWeDo.html">
-                            <input class="more_work_btn" type="button" value="Learn More">
+                            <input data-aos="fade-up" data-aos-duration="1000" class="more_work_btn" type="button" value="Learn More">
                         </a>
                     </div>
                 </div>
@@ -275,14 +281,14 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                         <div class="tream-member_info">
-                            <div class="section_title tream_section_title">
+                            <div class="section_title tream_section_title" data-aos="fade-up" data-aos-duration="1000">
                                 OUR PEOPLE
                             </div>
-                            <p>
+                            <p data-aos="fade-up" data-aos-duration="1000">
                                 We believe our breadth of offer is made stronger by the depth of expertise behind it.
                             </p>
                             <a href="#">
-                                <input class="tream_members_btn" type="button" value="Meet The Tream">
+                                <input data-aos="fade-up" data-aos-duration="1000" class="tream_members_btn" type="button" value="Meet The Tream">
                             </a>
                         </div>
                     </div>
@@ -291,7 +297,7 @@
                             <div class="row">
                                 <div class="col-lg-4 col-md-4 col-sm-6 col-6">
                                   <a href="./member.html">
-                                    <div class="single-member">
+                                    <div class="single-member" data-aos="zoom-in" data-aos-duration="1000">
                                         <div class="member-img-box">
                                             <img class="img-fluid"
                                                 src="./resource/img/indexpage/treamMemberImg/treamMember1.webp"
@@ -308,7 +314,7 @@
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-6 col-6">
                                    <a href="./member.html">
-                                    <div class="single-member">
+                                    <div class="single-member" data-aos="zoom-in" data-aos-duration="1000">
                                         <div class="member-img-box">
                                             <img class="img-fluid"
                                                 src="./resource/img/indexpage/treamMemberImg/treamMember2.webp"
@@ -325,7 +331,7 @@
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-6 col-6">
                                     <a href="./member.html">
-                                        <div class="single-member">
+                                        <div class="single-member" data-aos="zoom-in" data-aos-duration="1000">
                                             <div class="member-img-box">
                                                 <img class="img-fluid"
                                                     src="./resource/img/indexpage/treamMemberImg/treamMember3.webp"
@@ -342,7 +348,7 @@
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-6 col-6">
                                    <a href="./member.html">
-                                    <div class="single-member">
+                                    <div class="single-member" data-aos="zoom-in" data-aos-duration="1000">
                                         <div class="member-img-box">
                                             <img class="img-fluid"
                                                 src="./resource/img/indexpage/treamMemberImg/treamMember4.webp"
@@ -360,7 +366,7 @@
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-6 col-6">
                                     <a href="./member.html">
-                                        <div class="single-member">
+                                        <div class="single-member" data-aos="zoom-in" data-aos-duration="1000">
                                             <div class="member-img-box">
                                                 <img class="img-fluid"
                                                     src="./resource/img/indexpage/treamMemberImg/treamMember5.webp"
@@ -377,7 +383,7 @@
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-6 col-6">
                                     <a href="./member.html">
-                                        <div class="single-member">
+                                        <div class="single-member" data-aos="zoom-in" data-aos-duration="1000">
                                             <div class="member-img-box">
                                                 <img class="img-fluid"
                                                     src="./resource/img/indexpage/treamMemberImg/treamMember6.webp"
@@ -403,17 +409,17 @@
         <!-- join us section html start  -->
         <div class="join-us-section">
             <div class="container-fluid">
-                <div class="section_title join_us_title">
+                <div class="section_title join_us_title" data-aos="fade-up" data-aos-duration="2000">
                     JOIN US
                 </div>
-                <div class="join_us_dosc">
+                <div class="join_us_dosc" data-aos="fade-up" data-aos-duration="2000"  data-aos-delay="400">
                     <p>
                         Are you ready to dive into meaningful work? When you grow your career at FGS Global you’ll be
                         collaborating with people motivated to create purposeful impact and committed to your success
                         and development.
                     </p>
                 </div>
-                <div class="join_us_btn_container">
+                <div class="join_us_btn_container" data-aos="fade-up" data-aos-duration="2000"  data-aos-delay="600">
                     <a href="./joinUs.html">
                         <input class="join_us_btn" type="button" value="Join us">
                     </a>
@@ -482,8 +488,21 @@
     <!-- ============================= -->
     <!-- bootstrap js file link  -->
     <script src="./resource/js/bootstrap.min.js"></script>
-    <!-- all js files  -->
-    <script src="./resource/js/custom.js"></script>
+  <!-- Remember to include jQuery :) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+<!-- jQuery Modal -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+<!-- aos js cdn link -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+  
+<!-- all js files  -->
+<script src="./resource/js/custom.js"></script>
 
 </body>
 

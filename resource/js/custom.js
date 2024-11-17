@@ -14,3 +14,4 @@ bars.addEventListener('click', function(){
    bars.classList.toggle("clicked");
    nav_menu.classList.toggle("show_menu");
 });
+
